@@ -1,0 +1,177 @@
+\documentclass[a4paper,landscape]{article}
+\usepackage[T1]{fontenc}
+\usepackage{txfonts}
+\usepackage[swedish]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{color}
+\usepackage{colortbl}
+\pagestyle{empty}
+\oddsidemargin -1.0in
+\evensidemargin -1.0in
+\headheight 0.0in
+\headsep 0.0in
+\topmargin -0.3in
+\textwidth 11.7in
+\definecolor{hydrogen}{rgb}{1,1,1}
+\definecolor{metal}{rgb}{0.9,1,0.9}
+\definecolor{metalloid}{rgb}{0.9,0.9,1}
+\definecolor{noblegas}{rgb}{1,1,0.9}
+\definecolor{nonmetal}{rgb}{1,0.9,1}
+\definecolor{transitionmetal}{rgb}{0.9,1,1}
+
+\newcommand{\grundamne}[7]{\setlength{\unitlength}{1mm}\begin{picture}(11,12)\put(-1.5,7){#1}\tiny\put(-1.5,10){#2}\put(-1.5,4.5){#3}\put(5,7){#4}\put(5,10){#7}\put(-1.5,2){#5}\put(-1.5,0){#6}\normalsize\end{picture}}
+
+\begin{document}
+\begin{center}
+\begin{tabular}{|p{11mm}|p{11mm}|p{11mm}|p{11mm}|p{11mm}|p{11mm}|p{11mm}|p{11mm}|p{11mm}|p{11mm}|p{11mm}|p{11mm}|p{11mm}|p{11mm}|p{11mm}|p{11mm}|p{11mm}|p{11mm}|}
+\hline \hline
+\multicolumn{18}{|c|}{}\\
+\multicolumn{18}{|c|}{\em\huge Grundämnenas periodiska system}\normalsize\\
+\multicolumn{18}{|c|}{}\\
+\hline \hline
+1	&	2	&	3		&	4	&	5	&	6	&	7		&	8	&	9	&	10			& 11	&	12	&	13		&	14	&	15	& 16	&	17		&	18		\\
+\hline
+1A	&	2A	&	3A	&	4A	&	5A	&	6A	&	7A	&	\multicolumn{3}{c|}{8}	& 1B	&	2B	&	3B	&	4B	&	5B	& 6B	&	7B	&	8B	\\
+\hline \hline
+
+\cellcolor{hydrogen} \grundamne{H}{1}{Väte}{1,0079}{$1s^{1}$}{-1 +1}{2,1} &
+\multicolumn{16}{c|}{} &
+\cellcolor{noblegas} \grundamne{He}{2}{Helium}{4,00260}{$1s^{2}$}{}{} \\
+\hline
+
+\cellcolor{metal} \grundamne{Li}{3}{Litium}{6,941}{$He2s^{1}$}{+1}{1,0} &
+\cellcolor{metal} \grundamne{Be}{4}{Beryllium}{9,01218}{$He2s^{2}$}{+2}{1,5} &
+\multicolumn{10}{c|}{} &
+\cellcolor{metalloid} \grundamne{B}{5}{Bor}{10,81}{$He2s^{2}p^{1}$}{+3}{2,0} &
+\cellcolor{nonmetal} \grundamne{C}{6}{Kol}{12,011}{$He2s^{2}p^{2}$}{+2 +4}{2,5} &
+\cellcolor{nonmetal} \grundamne{N}{7}{Kväve}{14,0067}{$He2s^{2}p^{3}$}{-3 +2 +3 +4 +5}{3,0} &
+\cellcolor{nonmetal} \grundamne{O}{8}{Syre}{15,9994}{$He2s^{2}p^{4}$}{-1 -2}{3,5} &
+\cellcolor{nonmetal} \grundamne{F}{9}{Fluor}{18,9984}{$He2s^{2}p^{5}$}{-1}{4,0} &
+\cellcolor{noblegas} \grundamne{Ne}{10}{Neon}{20,179}{$He2s^{2}p^{6}$}{}{} \\
+\hline
+
+\cellcolor{metal} \grundamne{Na}{11}{Natrium}{22,9897}{$Ne3s^{1}$}{+1}{0,9} &
+\cellcolor{metal} \grundamne{Mg}{12}{Magnesium}{24,305}{$Ne3s^{2}$}{+2}{1,2} &
+\multicolumn{10}{c|}{} &
+\cellcolor{metal} \grundamne{Al}{13}{Aluminium}{26,9815}{$Ne3s^{2}p^{1}$}{+3}{1,5} &
+\cellcolor{metalloid} \grundamne{Si}{14}{Kisel}{28,0855}{$Ne3s^{2}p^{2}$}{+4}{1,8} &
+\cellcolor{nonmetal} \grundamne{P}{15}{Fosfor}{30,9738}{$Ne3s^{2}p^{3}$}{-3 +3 +5}{2,1} &
+\cellcolor{nonmetal} \grundamne{S}{16}{Svavel}{32,06}{$Ne3s^{2}p^{4}$}{-2 +2 +4 +6}{2,5} &
+\cellcolor{nonmetal} \grundamne{Cl}{17}{Klor}{35,453}{$Ne3s^{2}p^{5}$}{-1 +1 +3 +5 +7}{3,0} &
+\cellcolor{noblegas} \grundamne{Ar}{18}{Argon}{39,948}{$Ne3s^{2}p^{6}$}{}{} \\
+\hline
+
+\cellcolor{metal} \grundamne{K}{19}{Kalium}{39,098}{$Ar4s^{1}$}{+1}{0,8} &
+\cellcolor{metal} \grundamne{Ca}{20}{Kalcium}{40,08}{$Ar4s^{2}$}{+2}{1,0} &
+\cellcolor{transitionmetal} \grundamne{Sc}{21}{Skandium}{44,9559}{$Ar3d^{1}4s^{2}$}{+3}{1,3} &
+\cellcolor{transitionmetal} \grundamne{Ti}{22}{Titan}{47,90}{$Ar3d^{2}4s^{2}$}{+3 +4}{1,5} &
+\cellcolor{transitionmetal} \grundamne{V}{23}{Vanadin}{50,9415}{$Ar3d^{3}4s^{2}$}{+2 +3 +4 +5}{1,6} &
+\cellcolor{transitionmetal} \grundamne{Cr}{24}{Krom}{51,996}{$Ar3d^{5}4s^{1}$}{+2 +3 +6}{1,6} &
+\cellcolor{transitionmetal} \grundamne{Mn}{25}{Mangan}{54,9380}{$Ar3d^{5}4s^{2}$}{+2 +3 +4 +6 +7}{1,5} &
+\cellcolor{transitionmetal} \grundamne{Fe}{26}{Järn}{55,847}{$Ar3d^{6}4s^{2}$}{+2 +3 +6}{1,8} &
+\cellcolor{transitionmetal} \grundamne{Co}{27}{Kobolt}{58,9332}{$Ar3d^{7}4s^{2}$}{+2 +3}{1,8} &
+\cellcolor{transitionmetal} \grundamne{Ni}{28}{Nickel}{58,71}{$Ar3d^{8}4s^{2}$}{+2 +3}{1,8} &
+\cellcolor{transitionmetal} \grundamne{Cu}{29}{Koppar}{63,546}{$Ar3d^{10}4s^{1}$}{+1 +2 +3}{1,9} &
+\cellcolor{transitionmetal} \grundamne{Zn}{30}{Zink}{65,38}{$Ar3d^{10}4s^{2}$}{+2}{1,6} &
+\cellcolor{metal} \grundamne{Ga}{31}{Gallium}{69,72}{$Ar3d^{10}4s^{2}p^{1}$}{+3}{1,6} &
+\cellcolor{metalloid} \grundamne{Ge}{32}{Germanium}{72,58}{$Ar3d^{10}4s^{2}p^{2}$}{+2 +4}{1,8} &
+\cellcolor{metalloid} \grundamne{As}{33}{Arsenik}{74,9216}{$Ar3d^{10}4s^{2}p^{3}$}{-3 +3 +5}{2,0} &
+\cellcolor{nonmetal} \grundamne{Se}{34}{Selen}{78,96}{$Ar3d^{10}4s^{2}p^{4}$}{-2 +2 +4 +6}{2,4} &
+\cellcolor{nonmetal} \grundamne{Br}{35}{Brom}{79,904}{$Ar3d^{10}4s^{2}p^{5}$}{-1 +1 +3 +5}{2,8} &
+\cellcolor{noblegas} \grundamne{Kr}{36}{Krypton}{83,80}{$Ar3d^{10}4s^{2}p^{6}$}{+2}{} \\
+\hline
+
+\cellcolor{metal} \grundamne{Rb}{37}{Rubidium}{85,468}{$Kr5s^{1}$}{+1}{0,8} &
+\cellcolor{metal} \grundamne{Sr}{38}{Strontium}{87,62}{$Kr5s^{2}$}{+2}{1,0} &
+\cellcolor{transitionmetal} \grundamne{Y}{39}{Yttrium}{88,9059}{$Kr4d^{1}5s^{2}$}{+3}{1,2} &
+\cellcolor{transitionmetal} \grundamne{Zr}{40}{Zirkonium}{91,22}{$Kr4d^{2}5s^{2}$}{+4}{1,4} &
+\cellcolor{transitionmetal} \grundamne{Nb}{41}{Niob}{92,9064}{$Kr4d^{4}5s^{1}$}{+3 +5}{1,6} &
+\cellcolor{transitionmetal} \grundamne{Mo}{42}{Molybden}{95,94}{$Kr4d^{5}5s^{1}$}{+2 +3 +4 +5 +6}{1,8} &
+\cellcolor{transitionmetal} \grundamne{Tc}{43}{Teknetium}{98,9062}{$Kr4d^{5}5s^{2}$}{+2 +4 +7}{1,9} &
+\cellcolor{transitionmetal} \grundamne{Ru}{44}{Rutenium}{101,07}{$Kr4d^{7}5s^{1}$}{+2 +3 +4 +6 +8}{2,2} &
+\cellcolor{transitionmetal} \grundamne{Rh}{45}{Rodium}{102,9055}{$Kr4d^{8}5s^{1}$}{+2 +3 +4 +5}{2,2} &
+\cellcolor{transitionmetal} \grundamne{Pd}{46}{Palladium}{106,4}{$Kr4d^{10}$}{+2 +4}{2,2} &
+\cellcolor{transitionmetal} \grundamne{Ag}{47}{Silver}{107,868}{$Kr4d^{10}5s^{1}$}{+1 +2 +3}{1,9} &
+\cellcolor{transitionmetal} \grundamne{Cd}{48}{Kadmium}{112,41}{$Kr4d^{10}5s^{2}$}{+2}{1,7} &
+\cellcolor{metal} \grundamne{In}{49}{Indium}{114,82}{$Kr4d^{10}5s^{2}p^{1}$}{+1 +3}{1,7} &
+\cellcolor{metalloid} \grundamne{Sn}{50}{Tenn}{118,69}{$Kr4d^{10}5s^{2}p^{2}$}{+2 +4}{1,8} &
+\cellcolor{metalloid} \grundamne{Sb}{51}{Antimon}{121,75}{$Kr4d^{10}5s^{2}p^{3}$}{-3 +3 +4}{1,9} &
+\cellcolor{metalloid} \grundamne{Te}{52}{Tellur}{127,60}{$Kr4d^{10}5s^{2}p^{4}$}{-2 +4 +6}{2,1} &
+\cellcolor{nonmetal} \grundamne{I}{53}{Jod}{126,905}{$Kr4d^{10}5s^{2}p^{5}$}{-1 +1 +5 +7}{2,5} &
+\cellcolor{noblegas} \grundamne{Xe}{54}{Xenon}{131,30}{$Kr4d^{10}5s^{2}p^{6}$}{+2 +4 +6 +8}{} \\
+\hline
+
+\cellcolor{metal} \grundamne{Cs}{55}{Cesium}{132,905}{$Xe6s^{1}$}{+1}{0,7} &
+\cellcolor{metal} \grundamne{Ba}{56}{Barium}{137,33}{$Xe6s^{2}$}{+2}{0,9} &
+\cellcolor{transitionmetal} \grundamne{La}{57}{Lantan}{138,906}{$Xe5d^{1}6s^{2}$}{+3}{1,0} &
+\cellcolor{transitionmetal} \grundamne{Hf}{72}{Hafnium}{178,49}{$Xe4f^{14}5d^{2}6s^{2}$}{+4}{1,3} &
+\cellcolor{transitionmetal} \grundamne{Ta}{73}{Tantal}{180,948}{$Xe4f^{14}5d^{3}6s^{2}$}{+3 +4 +5}{1,5} &
+\cellcolor{transitionmetal} \grundamne{W}{74}{Volfram}{183,85}{$Xe4f^{14}5d^{4}6s^{2}$}{+2 +3 +4 +5 +6}{1,7} &
+\cellcolor{transitionmetal} \grundamne{Re}{75}{Rhenium}{186,2}{$Xe4f^{14}5d^{5}6s^{2}$}{+2 +3 +4 +6 +7}{1,9} &
+\cellcolor{transitionmetal} \grundamne{Os}{76}{Osmium}{190,2}{$Xe4f^{14}5d^{6}6s^{2}$}{+3 +4 +6 +8}{2,2} &
+\cellcolor{transitionmetal} \grundamne{Ir}{77}{Iridium}{192,22}{$Xe4f^{14}5d^{7}6s^{2}$}{+2 +3 +4 +6}{2,2} &
+\cellcolor{transitionmetal} \grundamne{Pt}{78}{Platina}{195,09}{$Xe4f^{14}5d^{9}6s^{1}$}{+2 +4 +6}{2,2} &
+\cellcolor{transitionmetal} \grundamne{Au}{79}{Guld}{196,967}{$Xe4f^{14}5d^{10}6s^{1}$}{+1 +3}{2,4} &
+\cellcolor{transitionmetal} \grundamne{Hg}{80}{Kvicksilver}{200,59}{$Xe4f^{14}5d^{10}6s^{2}$}{+1 +2}{1,9} &
+\cellcolor{metal} \grundamne{Ti}{81}{Tallium}{204,37}{$Xe4f^{14}5d^{10}6s^{2}p^{1}$}{+1 +3}{1,8} &
+\cellcolor{metal} \grundamne{Pb}{82}{Bly}{207,2}{$Xe4f^{14}5d^{10}6s^{2}p^{2}$}{+2 +4}{1,8} &
+\cellcolor{metal} \grundamne{Bi}{83}{Vismut}{208,981}{$Xe4f^{14}5d^{10}6s^{2}p^{3}$}{+3 +5}{1,9} &
+\cellcolor{metal} \grundamne{Po}{84}{Polonium}{(209)}{$Xe4f^{14}5d^{10}6s^{2}p^{4}$}{+2 +4 +6}{2,0} &
+\cellcolor{metalloid} \grundamne{At}{85}{Astat}{(210)}{$Xe4f^{14}5d^{10}6s^{2}p^{5}$}{-1 +1 +3 +5 +7}{2,2} &
+\cellcolor{noblegas} \grundamne{Rn}{86}{Radon}{(222)}{$Xe4f^{14}5d^{10}6s^{2}p^{6}$}{+2}{} \\
+\hline
+
+\cellcolor{metal} \grundamne{Fr}{87}{Frankium}{(223)}{$Rn7s^{1}$}{+1}{0,7} &
+\cellcolor{metal} \grundamne{Ra}{88}{Radium}{226,025}{$Rn7s^{2}$}{+2}{0,9} &
+\cellcolor{transitionmetal} \grundamne{Ac}{89}{Aktinium}{227,028}{$Rn6d^{1}7s^{2}$}{+3}{1,1} &
+\cellcolor{transitionmetal} \grundamne{Ku}{104}{Kurtjatorium}{(257)}{$Rn5f^{14}6d^{2}7s^{2}$}{+4}{} &
+\cellcolor{transitionmetal} \grundamne{Ha}{105}{Hahnium}{(262)}{$Rn5f^{14}6d^{3}7s^{2}$}{+5}{} &
+\multicolumn{13}{c|}{} \\
+\hline \hline
+
+\multicolumn{3}{|c|}{} &
+\cellcolor{transitionmetal} \grundamne{Ce}{58}{Cerium}{140,12}{$Xe4f^{1}5d^{1}6s^{2}$}{+3 +4}{} &
+\cellcolor{transitionmetal} \grundamne{Pr}{59}{Praseodym}{140,908}{$Xe4f^{3}6s^{2}$}{+3 +4}{} &
+\cellcolor{transitionmetal} \grundamne{Nd}{60}{Neodym}{144,24}{$Xe4f^{4}6s^{2}$}{+3}{} &
+\cellcolor{transitionmetal} \grundamne{Pm}{61}{Prometium}{(145)}{$Xe4f^{1}5d^{1}6s^{2}$}{+3}{} &
+\cellcolor{transitionmetal} \grundamne{Sm}{62}{Samarium}{150,4}{$Xe4f^{6}6s^{2}$}{+2 +3}{} &
+\cellcolor{transitionmetal} \grundamne{Eu}{63}{Europium}{151,96}{$Xe4f^{7}6s^{2}$}{+2 +3}{} &
+\cellcolor{transitionmetal} \grundamne{Gd}{64}{Gadolinium}{157,25}{$Xe4f^{7}5d^{1}6s^{2}$}{+3}{} &
+\cellcolor{transitionmetal} \grundamne{Tb}{65}{Terbium}{158,925}{$Xe4f^{9}6s^{2}$}{+3 +4}{} &
+\cellcolor{transitionmetal} \grundamne{Dy}{66}{Dysprosium}{162,50}{$Xe4f^{10}6s^{2}$}{+3}{} &
+\cellcolor{transitionmetal} \grundamne{Ho}{67}{Holmium}{164,930}{$Xe4f^{11}6s^{2}$}{+3}{} &
+\cellcolor{transitionmetal} \grundamne{Er}{68}{Erbium}{167,26}{$Xe4f^{11}6s^{2}$}{+3}{} &
+\cellcolor{transitionmetal} \grundamne{Tm}{69}{Tulium}{168,934}{$Xe4f^{13}6s^{2}$}{+3}{} &
+\cellcolor{transitionmetal} \grundamne{Yb}{70}{Ytterbium}{173,04}{$Xe4f^{14}6s^{2}$}{+2 +3}{} &
+\cellcolor{transitionmetal} \grundamne{Lu}{71}{Lutetium}{174,97}{$Xe4f^{14}5d^{1}6s^{2}$}{+3}{} &
+\multicolumn{1}{c|}{} \\
+\hline
+
+\multicolumn{3}{|c|}{} &
+\cellcolor{transitionmetal} \grundamne{Th}{90}{Thorium}{232,038}{$Rn6d^{2}7s^{2}$}{+4}{} &
+\cellcolor{transitionmetal} \grundamne{Pa}{91}{Protaktinium}{231,036}{$Rn5f^{2}6d^{1}7s^{2}$}{+4 +5}{} &
+\cellcolor{transitionmetal} \grundamne{U}{92}{Uran}{238,029}{$Rn5f^{3}6d^{2}7s^{2}$}{+3 +4 +5 +6}{} &
+\cellcolor{transitionmetal} \grundamne{Np}{93}{Neptunium}{237,048}{$Rn5f^{4}6d^{1}7s^{2}$}{+3 +4 +5 +6 +7}{} &
+\cellcolor{transitionmetal} \grundamne{Pu}{94}{Plutonium}{(244)}{$Rn5f^{6}7s^{2}$}{+3 +4 +5 +6}{} &
+\cellcolor{transitionmetal} \grundamne{Am}{95}{Americium}{(243)}{$Rn5f^{7}7s^{2}$}{+3 +4 +5 +6}{} &
+\cellcolor{transitionmetal} \grundamne{Cm}{96}{Curium}{(247)}{$Rn5f^{7}6d^{1}7s^{2}$}{+3 +4}{} &
+\cellcolor{transitionmetal} \grundamne{Bk}{97}{Berkelium}{(247)}{$Rn5f^{9}7s^{2}$}{+2 +3 +4}{} &
+\cellcolor{transitionmetal} \grundamne{Cf}{98}{Kalifornium}{(251)}{$Rn5f^{10}7s^{2}$}{+2 +3 +4}{} &
+\cellcolor{transitionmetal} \grundamne{Es}{99}{Einsteinium}{(254)}{$Rn5f^{11}7s^{2}$}{+2 +3}{} &
+\cellcolor{transitionmetal} \grundamne{Fm}{100}{Fermium}{(257)}{$Rn5f^{12}7s^{2}$}{+2 +3}{} &
+\cellcolor{transitionmetal} \grundamne{Md}{101}{Mendelevium}{(258)}{$Rn5f^{13}7s^{2}$}{+2 +3}{} &
+\cellcolor{transitionmetal} \grundamne{No}{102}{Nobelium}{(255)}{$Rn5f^{14}7s^{2}$}{+2 +3}{} &
+\cellcolor{transitionmetal} \grundamne{Lr}{103}{Lawrencium}{(256)}{$Rn5f^{14}6d^{1}7s^{2}$}{+3}{} &
+\multicolumn{1}{c|}{} \\
+
+\hline\hline
+\multicolumn{3}{|c|}{\cellcolor{hydrogen}\em Väte} &
+\multicolumn{3}{c|}{\cellcolor{metal}\em Metaller} &
+\multicolumn{3}{c|}{\cellcolor{transitionmetal}\em Övergångsmetaller} &
+\multicolumn{3}{c|}{\cellcolor{metalloid}\em Halvmetaller} &
+\multicolumn{3}{c|}{\cellcolor{nonmetal}\em Inte metaller} &
+\multicolumn{3}{c|}{\cellcolor{noblegas}\em Ädelgaser} \\
+\hline \hline
+\end{tabular}
+\end{center}
+\end{document}
